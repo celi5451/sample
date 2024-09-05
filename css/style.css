@@ -1,0 +1,40 @@
+/*import the variables from _variables.css. shift+command+7 or command+k+c = comment the line*/
+@import "_variables.css";
+
+/*reset default margin & padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.standout {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+body {
+  font-family: var(--fontMain);
+  header,
+  footer {
+    font-family: var(--fontHeader);
+    text-align: center;
+    padding: var(--marginSmall) var(--marginMain);
+  }
+  /* nesting */
+  section > header {
+    text-align: left;
+  }
+  /* section > header = all headers as a direct child of a section will be affected by this styling*/
+}
+
+section {
+  margin: var(--marginMain);
+  header {
+    text-align: left;
+  }
+}
+ul,
+ol {
+  margin-left: var(--marginMain);
+}
+
+/* in terminal: git init & git status, git add, git commit */

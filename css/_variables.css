@@ -1,0 +1,8 @@
+/*create variables*/
+:root {
+  --fontMain: Arial, Helvetica, sans-serif;
+  --fontHeader: Garamond, "Times new roman", serif;
+
+  --marginMain: 1rem;
+  --marginSmall: 0.5rem;
+}
